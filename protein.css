@@ -1,0 +1,247 @@
+body {
+    background-image: url('/assets/proteinBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+  background-color: #1e1f1f;
+  width: 100% !important;
+  height: 90px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  gap: 30px;
+  padding-left: 100px;
+}
+
+.block1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin-right: 120px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 0;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+      color: #a6ff00;
+  }
+}
+
+.center {
+  display: none;
+  margin-right: 120px;
+  display: flex;
+}
+
+.search {
+  display: inline-block;
+  position: relative;
+}
+
+.search .input {
+  display: flex;
+  width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search .searchbutton {
+  background-color: #a6ff00;
+  border: none;
+  color: black;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: .9s ease;
+}
+
+.search .searchbutton:hover {
+  transform: scale(1.1);
+  color: black;
+  background-color: #858585;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+      color: #a6ff00;
+  }
+}
+
+.block2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  margin-right: 120px;
+}
+button {
+  background-color: #a6ff00;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: black;
+  transition: 0.3s ease-in-out;
+  padding: 10px;
+
+  &:hover {
+      background-color: #858585;
+  }
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.main{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.modal {
+    margin-top: 50px;
+}
+.modal a {
+  color: inherit;
+}
+
+.modal-container {
+  max-height: 300px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.25);
+  padding-bottom: 30px;
+}
+
+.modal-container p{
+    color: white;
+    line-height: 2;
+}
+@media (max-width: 600px) {
+  .modal-container {
+    width: 90%;
+  }
+}
+
+.modal-container-header1 {
+  padding: 16px 32px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  /* background-image: url('./assets/obesity.jpg'); */
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.modal-container-header1 img{
+    width: 50px;
+    height: 70px;
+}
+.modal-container-header1 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.modal-container-body {
+    padding: 24px 32px 51px;
+    overflow-y: auto;
+  }
+  
+  .rtf h1,
+  .rtf h2,
+  .rtf h3,
+  .rtf h4,
+  .rtf h5,
+  .rtf h6 {
+    font-weight: 700;
+  }
+  
+  .rtf h1 {
+    font-size: 1.5rem;
+    line-height: 1.125;
+  }
+  
+  .rtf h2 {
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+  
+  .rtf h3 {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .rtf > * + * {
+    margin-top: 1em;
+  }
+  
+  .rtf > * + :is(h1, h2, h3) {
+    margin-top: 2em;
+  }
+  
+  .rtf > :is(h1, h2, h3) + * {
+    margin-top: 0.75em;
+  }
+  
+  .rtf ul,
+  .rtf ol {
+    margin-left: 20px;
+    list-style-position: inside;
+  }
+  
+  .rtf ol {
+    list-style: numeric;
+  }
+  
+  .rtf ul {
+    list-style: disc;
+  }
